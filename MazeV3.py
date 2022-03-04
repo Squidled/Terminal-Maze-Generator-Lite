@@ -1,5 +1,5 @@
 import os,random,sys
-sys.setrecursionlimit(1000000)
+sys.setrecursionlimit(1000000000)
 class Grid:
 	def __init__(self,x_width,y_width,charchter):
 		self.y_width = y_width

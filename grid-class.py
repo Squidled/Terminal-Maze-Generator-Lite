@@ -6,10 +6,6 @@ class Grid:
 		self.grid_list = []
 		for i in range(0,x_width * y_width):
 			self.grid_list.append(self.charchter + " ")
-		self.grid_checks = []
-		for m in range(0,self.y_width//2):
-			for l in range(0,self.x_width//2):
-				self.grid_checks.append((2*l+1)+(2*(self.x_width*m)+self.x_width))
 	def printgrid(self):
 		os.system("clear")
 		for i in range(0,self.y_width):
